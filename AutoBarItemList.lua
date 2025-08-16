@@ -675,6 +675,21 @@ AutoBar_Category_Info = { -- global
 		["texture"] = "INV_Potion_19";
 		["targetted"] = "WEAPON";
 	},
+	["POISON-AGITATING"] = {
+		["description"] = AUTOBAR_CLASS_POISON_AGITATING;
+		["texture"] = "INV_Potion_19";
+		["targetted"] = "WEAPON";
+	},
+	["POISON-CORROSIVE"] = {
+		["description"] = AUTOBAR_CLASS_POISON_CORROSIVE;
+		["texture"] = "INV_Potion_19";
+		["targetted"] = "WEAPON";
+	},
+	["POISON-DISSOLVENT"] = {
+		["description"] = AUTOBAR_CLASS_POISON_DISSOLVENT;
+		["texture"] = "INV_Potion_19";
+		["targetted"] = "WEAPON";
+	},
 	["POISON-DEADLY"] = {
 		["description"] = AUTOBAR_CLASS_POISON_DEADLY;
 		["texture"] = "Ability_Rogue_DualWeild";
@@ -1566,6 +1581,17 @@ AutoBar_Category_Info["WEIGHTSTONE"].items = {
 		3241,	-- Heavy Weightstone
 		7965,	-- Solid Weightstone
 		12643,	-- Dense Weightstone
+};
+AutoBar_Category_Info["POISON-AGITATING"].items = {
+		65032,	-- Agitating Poison
+};
+AutoBar_Category_Info["POISON-CORROSIVE"].items = {
+		47408,	-- Corrosive Poison
+		47409,	-- Corrosive Poison II
+};
+AutoBar_Category_Info["POISON-DISSOLVENT"].items = {
+		54009,	-- Dissolvent Poison
+		54010,	-- Dissolvent Poison II
 };
 AutoBar_Category_Info["POISON-CRIPPLING"].items = {
 		3775,	-- Crippling Poison
